@@ -6,7 +6,6 @@ Este programa lista todos los snapshots de un FlexVol
 
 import argparse
 import logging
-
 from netapp_ontap import NetAppRestError, config, HostConnection
 from netapp_ontap.resources import Volume, Snapshot
 
