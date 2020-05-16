@@ -55,9 +55,9 @@ def main() -> None:
     analiza_argumentos.add_argument("Nombre_vol",metavar="nombre_volumen",type=str,help="nombre del volumen")
     argumentos = analiza_argumentos.parse_args()
     
-    cluster = "10.67.216.10"
+    cluster = "cl01.demolab.es"
     usuario_api = "admin"
-    pasguord = "N3tApp00"
+    pasguord = "tururutururu"
     svm = "svm-demos"
 
     setup_logging()
