@@ -24,13 +24,13 @@ def establece_conexion(cluster: str, api_user: str, api_pass: str) -> None:
 
 def devuelve_uid_vol(svm_name, vol_name):
     try:
-        for volume in Volume.get_collection(
+        for volumen in Volume.get_collection(
                 **{"svm.name":svm_name}, **{"name":vol_name}, fields="uuid"):
             print()
             print(
                 "Listado de Snapshots para el volumen %s\n UUID de volumen %s" %
-                (volume.name, volume.uuid))
-            return volume.uuid
+                (volumen.name, volumen.uuid))
+            return volumen.uuid
     except NetAppRestError as error:
         print("Por favor, INTRODUZCA EL NOMBRE DEL VOLUMEN!\n"+error.http_err_response.http_response.text)
 
@@ -59,7 +59,6 @@ def main() -> None:
     usuario_api = "admin"
     pasguord = "N3tApp00"
     svm = "svm-demos"
-    """vol = "share1_unix" """
 
     setup_logging()
     establece_conexion(cluster, usuario_api, pasguord)
