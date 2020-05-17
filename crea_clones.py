@@ -1,7 +1,9 @@
 #!/opt/anaconda3/bin/python3
 
 """
-Este programa crea 100 clones de un FlexVol
+Este programa crea tantos clones de un FlexVol como se especifique
+Uso: crea_clones.py nombre_volumen numero_clones
+Ej:  $ python3 crea_clones.py test_vol 10
 """
 
 import argparse
