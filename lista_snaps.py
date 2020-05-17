@@ -5,7 +5,6 @@ Este programa lista todos los snapshots de un FlexVol
 Uso: lista_snaps.py nombre_volumen 
 Ej:  $ python3 lista_snaps.py test_vol
 """
-"""
 
 import argparse
 import logging
