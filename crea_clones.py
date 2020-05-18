@@ -1,7 +1,9 @@
 #!/opt/anaconda3/bin/python3
 
 """
-Este programa crea 100 clones de un FlexVol
+Este programa crea tantos clones de un FlexVol como se especifique
+Uso: crea_clones.py nombre_volumen numero_clones
+Ej:  $ python3 crea_clones.py test_vol 10
 """
 
 import argparse
@@ -73,9 +75,9 @@ def main() -> None:
     analiza_argumentos.add_argument("num_clones", metavar="num_clones", type=int, help="numero de clones")
     argumentos = analiza_argumentos.parse_args()
 
-    cluster = "10.67.216.10"
+    cluster = "cluster01.ntap.demolab.es"
     usuario_api = "admin"
-    pasguord = "N3tApp00"
+    pasguord = "tururutururu"
     svm = "svm-demos"
 
     setup_logging()

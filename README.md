@@ -24,5 +24,3 @@ La documentación y la última versión están disponibles en <a href="https://p
 Este repositorio contiene algunos scripts muy básicos de ejemplo que ilustran cómo utilizar la API REST de ONTAP en Python. 
 
 En el <a href="https://github.com/NetApp/ontap-rest-python" target="_blank">repositorio de NetApp</a> se pueden encontrar muy buenos ejemplos.
-
-
