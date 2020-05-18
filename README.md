@@ -8,7 +8,7 @@ Algunas características importantes:
 - Es posible acceder a la documentación online de la API desde `https://<cluster_mgmt_ip_address>/docs/api`  
 - El nuevo ONTAP System Manager 9.7 está completamente construido de manera nativa a partir de la API REST de ONTAP REST y el usuario puede ver las llamadas a la API que System Manager va haciendo en cada movimiento a través de la GUI. Esto ayuda al usuario a entender estas llamadas a la API y es especialmente útil para usar como ejemplo durante el desarrollo de scripts.   
 
-![Screenshot](https://github.com/raul-pingarron/raul-pingarron.github.io/blob/master/images/ocum97_api.png)
+![Screenshot](https://github.com/raul-pingarron/raul-pingarron.github.io/blob/master/images/ocum97_api.png)   
 
 La documentación completa está en <a href="https://docs.netapp.com/ontap-9/topic/com.netapp.nav.api/home.html" target="_blank">https://docs.netapp.com/ontap-9/topic/com.netapp.nav.api/home.html</a>.
 
