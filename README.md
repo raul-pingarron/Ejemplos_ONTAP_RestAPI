@@ -1,5 +1,4 @@
 # Ejemplos de la API REST de ONTAP con Python
----
 A partir de la versión 9.6 de ONTAP® se incluye el soporte para una API RESTful muy extensiva que permite automatizar, desplegar y administrar sistemas de almacenamiento NetApp®.   
 
 Algunas características importantes:
