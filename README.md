@@ -1,2 +1,23 @@
-# Ejemplos_ONTAP_RestAPI
-Ejemplos de uso de la API REST de ONTAP con la librería Python "netapp-ontap"
+# Ejemplos de la API REST de ONTAP con Python
+---
+A partir de la versión 9.6 de ONTAP® se incluye el soporte para una API RESTful muy extensiva que permite automatizar, desplegar y administrar sistemas de almacenamiento NetApp®.   
+
+Algunas características importantes:
+- Todo el tráfico entre el cliente y el LIF de ONTAP al que se ataca está encriptado (generalmente TLS, según la configuración de ONTAP).
+- La conexión se realiza a través del Cluster Management LIF, o el Node Management LIF o incluso el SVM Management LIF.
+- La API está versionada, para acceder directamente a la última versión la ruta a utilizar es `https://<cluster_mgmt_ip_address>/api`; para acceder a otra versión la ruta es `https://<cluster_mgmt_ip_address>/api/v1`
+- Es posible acceder a la documentación online de la API desde `https://<cluster_mgmt_ip_address>/docs/api`  
+
+La documentación completa está en <a href="https://docs.netapp.com/ontap-9/topic/com.netapp.nav.api/home.html" target="_blank">https://docs.netapp.com/ontap-9/topic/com.netapp.nav.api/home.html</a>.
+
+## Librería Python para la API REST de ONTAP
+La librería de la API REST de ONTAP para Python permite acceder a las llamadas de la API a través de Python, permitiendo gestionar la conexión al clúster, el procesamiento asíncrono de peticiones y la gestión de excepciones. 
+
+La librería se puede descargar e instalar desde el PyPi.org, el repositorio global de paquetes de Python.
+La documentación y la última versión están disponibles en <a href="https://pypi.org/project/netapp-ontap/" target="_blank">https://pypi.org/project/netapp-ontap/</a>.
+
+
+Este repositorio contiene algunos scripts muy básicos de ejemplo que ilustran cómo utilizar la API REST de ONTAP en Python. 
+
+En el <a href="https://github.com/NetApp/ontap-rest-python" target="_blank">repositorio de NetApp</a> se pueden encontrar muy buenos ejemplos.
+
