@@ -6,8 +6,9 @@ Algunas características importantes:
 - La conexión se puede realizae a través del Cluster Management LIF, o del Node Management LIF o incluso del SVM Management LIF.
 - La API está versionada, para acceder directamente a la última versión la ruta a utilizar es `https://<cluster_mgmt_ip_address>/api`; para acceder a otra versión la ruta es `https://<cluster_mgmt_ip_address>/api/v1`
 - Es posible acceder a la documentación online de la API desde `https://<cluster_mgmt_ip_address>/docs/api`  
-- El nuevo ONTAP System Manager 9.7 está completamente construido de manera nativa a partir de la API REST de ONTAP REST y el usuario puede ver las llamadas a la API que System Manager va haciendo en cada movimiento a través de la GUI. Esto ayuda al usuario a entender estas llamadas a la API y es especialmente útil para usar como ejemplo durante el desarrollo de scripts.
-![alt text](/OCUM9.7_API.jpg)   
+- El nuevo ONTAP System Manager 9.7 está completamente construido de manera nativa a partir de la API REST de ONTAP REST y el usuario puede ver las llamadas a la API que System Manager va haciendo en cada movimiento a través de la GUI. Esto ayuda al usuario a entender estas llamadas a la API y es especialmente útil para usar como ejemplo durante el desarrollo de scripts.   
+
+![alt text](https://github.com/raul-pingarron/raul-pingarron.github.io/blob/master/resources/OCUM9.7_API.jpg?raw=true)
 
 La documentación completa está en <a href="https://docs.netapp.com/ontap-9/topic/com.netapp.nav.api/home.html" target="_blank">https://docs.netapp.com/ontap-9/topic/com.netapp.nav.api/home.html</a>.
 
