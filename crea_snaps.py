@@ -1,4 +1,5 @@
-#!/opt/anaconda3/bin/python3
+#!/usr/bin/python3
+
 """
 Este programa crea tantos snapshots de un FlexVol como se especifique
 Uso: crea_snaps.py nombre_volumen numero_snaps

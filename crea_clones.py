@@ -1,4 +1,4 @@
-#!/opt/anaconda3/bin/python3
+#!/usr/bin/python3
 
 """
 Este programa crea tantos clones de un FlexVol como se especifique
