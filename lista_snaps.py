@@ -1,4 +1,5 @@
-#!/opt/anaconda3/bin/python3
+#!/usr/bin/python3
+
 """
 Este programa lista todos los snapshots de un FlexVol
 Uso: lista_snaps.py nombre_volumen 
